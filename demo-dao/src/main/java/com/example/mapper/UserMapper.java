@@ -5,7 +5,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component("userMapper")
 public interface UserMapper {
     List selectByName(String name);
     int insert(User user);
